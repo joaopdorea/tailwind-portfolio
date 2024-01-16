@@ -20,11 +20,11 @@ const Experience = () => {
         <div className={optionOver == 1 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(1)}>
 
         <div className="mt-10 bg-[#141414]">
-        <b className="text-2xl bg-[#141414] ml-5"> Data Governance Intern - Ipiranga</b>
+        <b className="text-2xl bg-[#141414] ml-5"> Data Governance Intern</b>
         </div>
 
         <div className="mt-5 bg-[#141414]">
-        <b className="text-md bg-[#141414] ml-5"> (October 2021 - July 2022)</b>
+        <b className="text-md bg-[#141414] ml-5"> Ipiranga | October 2021 - July 2022</b>
         </div>
 
         <div className="mt-5 bg-[#141414]">
@@ -43,11 +43,11 @@ const Experience = () => {
         <div className={optionOver == 2 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(2)}>
 
 <div className="mt-10 bg-[#141414]">
-<b className="text-2xl bg-[#141414] ml-5"> Business Inteligence Intern - Globo</b>
+<b className="text-2xl bg-[#141414] ml-5"> Business Inteligence Intern</b>
 </div>
 
 <div className="mt-5 bg-[#141414]">
-<b className="text-md bg-[#141414] ml-5"> (August 2022 - Now)</b>
+<b className="text-md bg-[#141414] ml-5"> Globo | August 2022 - Now</b>
 </div>
 
 <div className="mt-5 bg-[#141414]">

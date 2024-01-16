@@ -8,7 +8,7 @@ import Whatsapp from "../img/whatsapp.svg"
 
 const Profile = () => {
   return (
-    <div className = "flex justify-between flex-col lg:flex-row max-w-[1240px] mx-auto px-4 mb-20 lg:mb-[300px] mt-[200px] text-white">
+    <div className = "flex justify-between flex-col lg:flex-row max-w-[1240px] mx-auto px-4 mb-20 lg:mb-[300px] mt-[150px] lg:mt-[200px] text-white">
 
       <div className = "flex-column text-center lg:text-start">
 
@@ -24,7 +24,7 @@ const Profile = () => {
   <b className="bg-[#ededed] text-[#313131]">Download CV </b>
   </div>
   </a>
-<div className="flex flex-r8 mt-5">
+<div className="flex flex-r8 mt-5 ml-2.5 lg:ml-0">
 
 
 <a href="https://github.com/joaopdorea" target="_blank"><img className="h-8 mr-3" src={GitHub}/></a>
