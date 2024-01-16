@@ -8,7 +8,7 @@ const Finance = () => {
   return (
     <div className=" text-white bg-[#141414]" id ="experiences">
 
-<div className="justify-between items-center lg:h-[850px] max-w-[1240px] mx-auto px-4 bg-[#141414] pt-[100px]">
+<div className="justify-between items-center h-[1000px] lg:h-[850px] max-w-[1240px] mx-auto px-4 bg-[#141414] pt-[50px] sm:pt-[100px]">
     <b className="text-3xl bg-[#141414]"> Finance App </b>
 
 
