@@ -10,7 +10,7 @@ const Pet = () => {
   return (
     <div className=" text-white bg-[#141414]" id ="experiences">
 
-<div className="justify-between items-center lg:h-[1600px] max-w-[1240px] mx-auto px-4 bg-[#141414] pt-[100px]">
+<div className="justify-between items-center lg:h-[1600px] max-w-[1240px] mx-auto px-4 bg-[#141414] pt-[50px] sm:pt-[100px]">
     <b className="text-3xl bg-[#141414]"> Pet Dashboard </b>
 
 

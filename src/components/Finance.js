@@ -27,11 +27,13 @@ const Finance = () => {
 
 
 <div className="mt-20 bg-[#141414]">
-<p className="text-xl bg-[#141414] ml-5 w-[90%]"> An university's system, with many entities, that relate with each other. The relationships were estabilished using JPA. After ending this project, it is possible to realize how important it is to test and validate in every part of the process.</p>
+<p className="text-xl bg-[#141414] ml-5 w-[90%]"> Register customers, obtaining the name and email of the customer/user. With this information, the customer fills in the company's name he wants to get a real-time quote for the value of the share, and also receive alerts via email if the share has a favorable price, whether buying or selling the share.
+
+ </p>
 </div>
 
 <div className="mt-20 bg-[#141414]">
-<p className="text-xl bg-[#141414] ml-5 w-[90%]"> Made and tested with SpringBoot & H2 Database & Postman.</p>
+<p className="text-xl bg-[#141414] ml-5 w-[90%]"> Django was used to create this project. This project covered concepts of WebScraping (Python), database (MySql) and web interface (Html/CSS).</p>
 </div>
 
 
