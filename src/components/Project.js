@@ -22,9 +22,13 @@ const Project = () => {
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10" onMouseOut={() => handleOptionOver(4)}>
 
-            <div onMouseOver= {() => handleOptionOver(1)} className={optionOver == 1 | optionOver == 4 ? "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer  ease-in-out duration-500" : "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer opacity-20 ease-in-out duration-500" }>
+        
+        <a onMouseOver= {() => handleOptionOver(1)} className={optionOver == 1 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+            <div className="bg-[#141414]">
 
-            <div className= "mt-20 bg-[#141414]">
+            
+            <div className= "mt-20 items-center bg-[#141414]">
+                
                 <b className="text-4xl bg-[#141414]"> iBus App</b>
                 <div className = "mt-10 flex flex-row justify-center bg-[#141414]">
                     <div className="text-lg bg-[#ededed] text-[#313131] rounded-2xl pt-2 pb-2 pr-4 pl-4">Kotlin</div>
@@ -40,13 +44,17 @@ const Project = () => {
                 </div>
 
              </div>
+             
+
+            </div> 
+            </a>
 
 
-            </div>
 
+        <a href="university" onMouseOver= {() => handleOptionOver(2)} className={optionOver == 2 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+           <div  className="bg-[#141414]">
 
-            <div  onMouseOver= {() => handleOptionOver(2)} className={optionOver == 2 | optionOver == 4 ? "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer ease-in-out duration-500" : "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer opacity-20 ease-in-out duration-500" }>
-
+           
             <div className= "mt-20 bg-[#141414]">
                 <b className="text-4xl bg-[#141414]"> University</b>
                 <div className = "mt-10 flex flex-row justify-center bg-[#141414]">
@@ -64,11 +72,16 @@ const Project = () => {
                 </div>
 
              </div>
+             
 
 
             </div>
+            </a>
+            
 
-            <div onMouseOver= {() => handleOptionOver(3)} className={optionOver == 3 | optionOver == 4 ? "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer ease-in-out duration-500" : "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer opacity-20 ease-in-out duration-500" }>
+            <a href="finance" onMouseOver= {() => handleOptionOver(3)} className={optionOver == 3 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+            <div className="bg-[#141414]">
+
 
 <div className= "mt-20 bg-[#141414]">
     <b className="text-4xl bg-[#141414]"> Finance App</b>
@@ -86,12 +99,14 @@ const Project = () => {
     </div>
 
  </div>
+ 
 
 
 </div>
+</a>
 
-
-<div onMouseOver= {() => handleOptionOver(5)} className={optionOver == 5 | optionOver == 4 ? "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer ease-in-out duration-500" : "grid1-item text-center bg-[#141414] rounded-xl h-80 shadow-lg shadow-black cursor-pointer opacity-20 ease-in-out duration-500" }>
+<a href="pet-dashboard" onMouseOver= {() => handleOptionOver(5)} className={optionOver == 5 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+<div className="bg-[#141414]">
 
 <div className= "mt-20 bg-[#141414]">
     <b className="text-4xl bg-[#141414]"> Pet Dashboard</b>
@@ -112,6 +127,7 @@ const Project = () => {
 
 
 </div>
+</a>
 
 
 

@@ -18,7 +18,7 @@ const Profile = () => {
         <p className="font-bold"> 24, lives in Niteroi, RJ, Brazil. Communicative, proactive and dedicated.
 
 </p>
-<div className="w-[50%] lg:w-[100%] ml-[35%] lg:ml-[0%] mt-5">
+<div className="w-[50%] lg:w-[100%] ml-[33%] lg:ml-[0%] mt-5">
 <a href={Curriculo} download><div className="bg-[#ededed] min-w-[20px] w-[140px] pt-2 pb-2 pl-4 pr-4 rounded-2xl mt-5" >
   
   <b className="bg-[#ededed] text-[#313131]">Download CV </b>

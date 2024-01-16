@@ -20,7 +20,7 @@ const NavBar = () => {
     <div className = "flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white sticky top-0" >
 
         
-        <a href=""><img className="h-10 mt-4" src={Logo}/></a>
+        <a href="/"><img className="h-10 mt-4" src={Logo}/></a>
 
         <ul className ="hidden md:flex">
                     <li className="p-4"><a href="#projects"className="no-underline">Projects</a></li>
