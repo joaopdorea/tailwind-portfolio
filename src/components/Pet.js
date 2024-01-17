@@ -30,11 +30,11 @@ const Pet = () => {
 
 
 <div className="mt-5 bg-[#141414]">
-<p className="text-xl bg-[#141414] ml-5 w-[90%]"> All rankings requested by the client, helping in the decision process.</p>
+<p className="text-xl bg-[#141414] ml-5 w-[90%]"> Dashboard of a Pet Shop, combining visual & important data.</p>
 </div>
 
 <div className="mt-20 bg-[#141414]">
-<p className="text-xl bg-[#141414] ml-5 w-[90%]"> Top Regions, Centres & Malls, Animals.</p>
+<p className="text-xl bg-[#141414] ml-5 w-[90%]"> All frames requested by the client, helping in the decision process.</p>
 </div>
 
 
@@ -114,7 +114,7 @@ const Pet = () => {
 
 
 <div className="mt-5 bg-[#141414]">
-<p className="text-xl bg-[#141414] ml-5 w-[90%] mt-20"> Adittionaly, this dash shows the most important indicators for the Pet Business. Net Revenue, Total Sales, Total Cost and more.</p>
+<p className="text-xl bg-[#141414] ml-5 w-[90%] mt-20"> Additionally, this dash shows the most important indicators for the Pet Business. Net Revenue, Total Sales, Total Cost and more.</p>
 </div>
 
 <div className="mt-20 bg-[#141414]">

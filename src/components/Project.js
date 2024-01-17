@@ -20,7 +20,7 @@ const Project = () => {
         <b className="text-3xl"> Projects </b>
 
 
-         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10" onMouseOut={() => handleOptionOver(4)}>
+         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10" onMouseOut={() => handleOptionOver(4)}>
 
         
         <a onMouseOver= {() => handleOptionOver(1)} className={optionOver == 1 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
@@ -79,31 +79,9 @@ const Project = () => {
             </a>
             
 
-            <a href="finance" onMouseOver= {() => handleOptionOver(3)} className={optionOver == 3 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
-            <div className="bg-[#141414]">
+        
 
 
-<div className= "mt-20 bg-[#141414]">
-    <b className="text-4xl bg-[#141414]"> Finance App</b>
-    <div className = "mt-10 flex flex-row justify-center bg-[#141414]">
-        <div className="text-lg bg-[#ededed] text-[#313131] rounded-2xl pt-2 pb-2 pr-4 pl-4">Python</div>
-
-
-    </div>
-
-    <div className = "flex flex-row items-center mt-7 bg-[#141414] justify-center">
-        <div className="bg-[#141414]"><img className="mr-5 bg-[#141414]" src={CircleReady}/></div>
-        <p className="bg-[#141414]">Ready</p>
-
-
-    </div>
-
- </div>
- 
-
-
-</div>
-</a>
 
 <a href="pet-dashboard" onMouseOver= {() => handleOptionOver(5)} className={optionOver == 5 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
 <div className="bg-[#141414]">
