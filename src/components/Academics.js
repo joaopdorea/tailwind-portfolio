@@ -20,7 +20,7 @@ const Academics = () => {
 
      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10 ">
 
-        <div className={optionOver == 1 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(1)}>
+        <div className={optionOver == 1 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(1)}>
 
         <div className="mt-20 bg-[#141414] border border-[#141414] flex flex-row justify-center">
 <img src={Hat} className="w-[140px] bg-[#141414] border border-[#141414]" /> 
@@ -41,7 +41,7 @@ const Academics = () => {
         </div>
 
 
-        <div className={optionOver == 2 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(2)}>
+        <div className={optionOver == 2 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(2)}>
 
         <div className="mt-20 bg-[#141414] border border-[#141414] flex flex-row justify-center">
 <img src={Languages} className="w-[140px] bg-[#141414] border border-[#141414]" /> 
@@ -62,7 +62,7 @@ const Academics = () => {
 </div>
 
 
-<div className={optionOver == 3 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(3)}>
+<div className={optionOver == 3 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-[460px] shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(3)}>
 
 <div className="mt-20 bg-[#141414] border border-[#141414] flex flex-row justify-center">
 <img src={Udemy} className="w-[140px] bg-[#141414] border border-[#141414]" /> 

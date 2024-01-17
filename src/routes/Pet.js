@@ -7,7 +7,7 @@ const PetPage = () => {
   return (
     <div>
 
-        <Navbar/>
+        <Navbar />
         <Pet/>
 
 

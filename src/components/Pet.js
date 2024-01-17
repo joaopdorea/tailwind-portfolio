@@ -6,6 +6,7 @@ import Photo3 from '../img/treinando bi-4.png'
 
 const Pet = () => {
 
+    
 
   return (
     <div className=" text-white bg-[#141414]" id ="experiences">

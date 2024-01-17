@@ -23,7 +23,7 @@ const Project = () => {
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10" onMouseOut={() => handleOptionOver(4)}>
 
         
-        <a onMouseOver= {() => handleOptionOver(1)} className={optionOver == 1 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+        <a onMouseOver= {() => handleOptionOver(1)} className={optionOver == 1 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl opacity-100 ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-100 ease-in-out duration-500" }>
             <div className="bg-[#141414]">
 
             
@@ -51,7 +51,7 @@ const Project = () => {
 
 
 
-        <a href="university" onMouseOver= {() => handleOptionOver(2)} className={optionOver == 2 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+        <a href="university" onMouseOver= {() => handleOptionOver(2)} className={optionOver == 2 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-100 ease-in-out duration-500" }>
            <div  className="bg-[#141414]">
 
            
@@ -83,7 +83,7 @@ const Project = () => {
 
 
 
-<a href="pet-dashboard" onMouseOver= {() => handleOptionOver(5)} className={optionOver == 5 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-20 ease-in-out duration-500" }>
+<a href="pet-dashboard" onMouseOver= {() => handleOptionOver(5)} className={optionOver == 5 | optionOver == 4 ? "grid1-item text-center  h-80 bg-[#141414] shadow-lg shadow-black rounded-xl ease-in-out duration-500" : "grid1-item text-center h-80 bg-[#141414] shadow-lg shadow-black rounded-xl  opacity-100 ease-in-out duration-500" }>
 <div className="bg-[#141414]">
 
 <div className= "mt-20 bg-[#141414]">

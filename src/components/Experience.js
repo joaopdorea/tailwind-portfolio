@@ -17,7 +17,7 @@ const Experience = () => {
 
      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10 ">
 
-        <div className={optionOver == 1 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(1)}>
+        <div className={optionOver == 1 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(1)}>
 
         <div className="mt-10 bg-[#141414]">
         <b className="text-2xl bg-[#141414] ml-5"> Data Governance Intern</b>
@@ -40,7 +40,7 @@ const Experience = () => {
         </div>
 
 
-        <div className={optionOver == 2 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-25"} onMouseOver={() => handleOptionOver(2)}>
+        <div className={optionOver == 2 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(2)}>
 
 <div className="mt-10 bg-[#141414]">
 <b className="text-2xl bg-[#141414] ml-5"> Business Inteligence Intern</b>
