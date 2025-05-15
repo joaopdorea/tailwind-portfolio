@@ -14,7 +14,9 @@ const Privacy = () => {
 A sua privacidade é muito importante para nós. Este aplicativo coleta apenas as informações necessárias para oferecer uma experiência segura, personalizada e eficiente aos usuários. Todas as informações são tratadas com responsabilidade, seguindo as normas de proteção de dados vigentes.
 
 </p>
-<h2>
+
+
+<h2 className="text-xl bg-[#141414] ml-5 w-[90%]">
 1. Dados Pessoais
 </h2>
 
@@ -27,7 +29,7 @@ Garantir a segurança de sua conta e de suas transações.
 Esses dados nunca são vendidos ou compartilhados com terceiros sem o seu consentimento.
 
 </p>
-<h2>
+<h2 className="text-xl bg-[#141414] ml-5 w-[90%]">
 2. Dados de Localização
 </h2>
 
@@ -38,14 +40,14 @@ Melhorar a experiência de uso, como sugerir opções mais relevantes próximas 
 Otimizar funcionalidades baseadas em geolocalização, como rotas ou serviços locais.
 A coleta de localização é feita somente com sua permissão e pode ser desativada a qualquer momento nas configurações do seu dispositivo.
 </p>
-<h2>
+<h2 className="text-xl bg-[#141414] ml-5 w-[90%]">
 3. Segurança
 </h2>
 
 <p className="text-xl bg-[#141414] ml-5 w-[90%]">
 Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acessos não autorizados, vazamentos ou usos indevidos.
 </p>
-<h2>
+<h2 className="text-xl bg-[#141414] ml-5 w-[90%]">
 4. Transparência e Controle
 </h2>
 
