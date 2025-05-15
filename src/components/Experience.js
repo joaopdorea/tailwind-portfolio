@@ -69,7 +69,7 @@ const Experience = () => {
 <div className={optionOver == 3 | optionOver == 4 ? "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500" :  "grid1-item bg-[#141414] rounded-xl h-80 shadow-lg shadow-black ease-in-out duration-500 opacity-100"} onMouseOver={() => handleOptionOver(2)}>
 
 <div className="mt-10 bg-[#141414]">
-<b className="text-2xl bg-[#141414] ml-5"> Business Inteligence Intern</b>
+<b className="text-2xl bg-[#141414] ml-5"> Data Governance Intern</b>
 </div>
 
 <div className="mt-5 bg-[#141414]">
