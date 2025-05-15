@@ -8,6 +8,7 @@ import FinancePage from './routes/Finance'
 import PetPage from './routes/Pet'
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import PrivacyPage from './routes/Privacy';
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([{
 {
   path: "pet-dashboard",
   element: <PetPage/>,
+},
+{
+  path: "privacy",
+  element: <PrivacyPage/>,
 },
 ])
 
