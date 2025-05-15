@@ -13,9 +13,9 @@ const Profile = () => {
       <div className = "flex-column text-center lg:text-start">
 
         <h1 className="text-8xl mb-20">João Dorea</h1>
-        <b className="">FULL STACK DEVELOPER & BI ANALYST</b>
+        <b className="">IOS DEVELOPER & BI ANALYST</b>
 
-        <p className="font-bold"> 24, lives in Niteroi, RJ, Brazil. Communicative, proactive and dedicated.
+        <p className="font-bold"> 26, lives in Niteroi, RJ, Brazil. Communicative, proactive and dedicated.
 
 </p>
 <div className="w-[50%] lg:w-[100%] ml-[33%] lg:ml-[0%] mt-5">

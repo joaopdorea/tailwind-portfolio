@@ -29,9 +29,9 @@ const Project = () => {
             
             <div className= "mt-20 items-center bg-[#141414]">
                 
-                <b className="text-4xl bg-[#141414]"> iBus App</b>
+                <b className="text-4xl bg-[#141414]"> weBus App</b>
                 <div className = "mt-10 flex flex-row justify-center bg-[#141414]">
-                    <div className="text-lg bg-[#ededed] text-[#313131] rounded-2xl pt-2 pb-2 pr-4 pl-4">Kotlin</div>
+                    <div className="text-lg bg-[#ededed] text-[#313131] rounded-2xl pt-2 pb-2 pr-4 pl-4">Swift</div>
 
 
                 </div>
