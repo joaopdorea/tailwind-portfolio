@@ -42,7 +42,7 @@ const Profile = () => {
       <div className="mt-5 lg:mt-0">
 
       <img
-  className="rounded-full hidden md:flex w-[500px] h-[500px] object-cover -mt-4"
+  className="rounded-full hidden md:flex w-[500px] h-[500px] object-cover -mt-6"
   src={Photo}
 />
 
